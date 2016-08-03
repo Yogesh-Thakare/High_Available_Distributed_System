@@ -1,6 +1,5 @@
 package com.replica1.impl;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
@@ -20,11 +19,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-import org.omg.CORBA.ORB;
-
-import dsms.ClinicService;
-import dsms.ClinicServiceHelper;
 import dsms.ClinicServicePOA;
 
 
@@ -38,7 +32,7 @@ public class ClinicServerImpl extends ClinicServicePOA {
 	private HashMap<String, List<Practitioner>> practitionerRecords = new HashMap<String, List<Practitioner>>();
 	private static int drRecordID = 11111;
 	private static int nrRecordID = 11111;
-	private final Object lock = new java.lang.Object();
+	//private final Object lock = new java.lang.Object();
 	
 	private UDPThread udpThread;
 

@@ -14,4 +14,5 @@ public class Constants {
 	public static final int MC_FDS_PORT1 = 6001;
 	public static final int MC_FDS_PORT2 = 6002;
 	public static final int MC_FDS_PORT3 = 6003;
+	public static final String MULTICAST_HOST_ADDRESS = "192.168.2.16";
 }
