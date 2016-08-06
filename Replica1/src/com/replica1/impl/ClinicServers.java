@@ -48,7 +48,7 @@ public class ClinicServers{
 			writeContactDetailsToFile(orb, rootPOA, splObj, "LVL");
 			writeContactDetailsToFile(orb, rootPOA, spbObj, "DDO");
 
-			new UDPReceiver(7878);
+			new UDPReceiver(7001);
 			new MulticastMessageReceiver(Constants.MC_OPERATION_PORT);
 			
 			new FailureDetection().start();;
