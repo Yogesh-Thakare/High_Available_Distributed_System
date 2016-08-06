@@ -98,7 +98,7 @@ public class ClinicServer
 			writeORB(orb, rootPOA, objLVL, "LVL");
 			writeORB(orb, rootPOA, objDDO, "DDO");
 
-			new UDPReceiver(7878);
+			new UDPReceiver(7003);
 			new MulticastMessageReceiver(Constant.MC_OPERATION_PORT);
 			
 			new FailureDetection().start();;
