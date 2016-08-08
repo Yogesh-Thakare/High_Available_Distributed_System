@@ -103,9 +103,9 @@ public class ManagerClient extends Thread{
 						new ManagerClient(userChoice, "SPB1111", "","SARA", "TRENCREDI", "", "FOUND","01/01/2009","QUEBEC","QUEBEC","");
 						break;
 					case 3: 
-						new ManagerClient(userChoice, "SPVM1111", "","", "", "", "","","","","");
-						new ManagerClient(userChoice, "SPL1111", "","", "", "", "","","","","");
-						new ManagerClient(userChoice, "SPB1111", "","", "", "", "","","","","");
+						new ManagerClient(userChoice, "MTL1111", "","", "", "", "","","","","");
+						new ManagerClient(userChoice, "LVL1111", "","", "", "", "","","","","");
+						new ManagerClient(userChoice, "DDO1111", "","", "", "", "","","","","");
 						break;
 					case 4:	
 						new ManagerClient(userChoice, "SPVM1111", "CR11111","", "DILINGER", "", "ONTHERUN","","","","");
