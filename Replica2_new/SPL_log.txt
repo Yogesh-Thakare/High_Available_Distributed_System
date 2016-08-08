@@ -1,0 +1,77 @@
+No.	Badge ID	Record ID	Status	Operation		Time		Transaction Status
+1	SPL5555	MR11112			Edit Record Status	17:06:02 PM	FAILED: Record does not exist
+2	SPL5555	MR11112			Edit Record Status	17:06:04 PM	FAILED: Record does not exist
+3	SPL2222	CR11115		ONTHERUN	Created Criminal Record	17:06:10 PM	SUCCESS: Criminal Record Created
+4	SPL2222	CR11116		ONTHERUN	Created Criminal Record	17:06:12 PM	SUCCESS: Criminal Record Created
+5	SPL4444	-------		-------	Get Record Count	17:06:15 PM	SPL:2 (17:06:15 PM)  SPVM:4 (17:06:15 PM) SPB:2 (17:06:15 PM)
+6	SPL4444	-------		-------	Get Record Count	17:06:17 PM	SPL:2 (17:06:17 PM)  SPVM:4 (17:06:17 PM) SPB:2 (17:06:17 PM)
+7	SPL3333	MR11113		MISSING	Created Missing Record	17:06:21 PM	SUCCESS: Missing Record Created
+8	SPL3333	MR11114		MISSING	Created Missing Record	17:06:23 PM	SUCCESS: Missing Record Created
+9	SPL6666	CR11111		-------	Transfer Record	17:06:25 PM	Record Not Found!
+10	SPL2222	CR11111		ONTHERUN	Created Criminal Record	18:29:39 PM	SUCCESS: Criminal Record Created
+11	SPL2222	CR11112		ONTHERUN	Created Criminal Record	18:29:41 PM	SUCCESS: Criminal Record Created
+12	SPL4444	-------		-------	Get Record Count	18:29:51 PM	SPL:2 (18:29:51 PM)  SPVM:4 (18:29:51 PM) SPB:2 (18:29:51 PM)
+13	SPL4444	-------		-------	Get Record Count	18:29:53 PM	SPL:2 (18:29:53 PM)  SPVM:4 (18:29:53 PM) SPB:2 (18:29:53 PM)
+14	SPL1111	-------		-------	Get Record Count	18:11:37 PM	SPL:0 (18:11:37 PM)  SPVM:0 (18:11:37 PM) SPB:0 (18:11:37 PM)
+15	SPL1111	-------		-------	Get Record Count	18:11:39 PM	SPL:0 (18:11:39 PM)  SPVM:0 (18:11:39 PM) SPB:0 (18:11:39 PM)
+16	SPL5555	MR11112			Edit Record Status	19:36:36 PM	FAILED: Record does not exist
+17	SPL5555	MR11112			Edit Record Status	19:36:38 PM	FAILED: Record does not exist
+18	SPL6666	CR11111		-------	Transfer Record	19:36:40 PM	Record Not Found!
+19	SPL6666	CR11111		-------	Transfer Record	19:36:42 PM	Record Not Found!
+20	SPL4444	-------		-------	Get Record Count	19:36:42 PM	SPL:0 (19:36:42 PM)  SPVM:0 (19:36:42 PM) SPB:0 (19:36:42 PM)
+21	SPL4444	-------		-------	Get Record Count	19:36:44 PM	SPL:0 (19:36:44 PM)  SPVM:0 (19:36:44 PM) SPB:0 (19:36:44 PM)
+22	SPL2222	CR11113		ONTHERUN	Created Criminal Record	19:36:49 PM	SUCCESS: Criminal Record Created
+23	SPL2222	CR11114		ONTHERUN	Created Criminal Record	19:36:51 PM	SUCCESS: Criminal Record Created
+24	SPL3333	MR11113		MISSING	Created Missing Record	19:36:53 PM	SUCCESS: Missing Record Created
+25	SPL3333	MR11114		MISSING	Created Missing Record	19:36:55 PM	SUCCESS: Missing Record Created
+26	SPL1111	-------		-------	Get Record Count	19:45:11 PM	SPL:4 (19:45:11 PM)  SPVM:5 (19:45:11 PM) SPB:2 (19:45:11 PM)
+27	SPL1111	-------		-------	Get Record Count	19:45:13 PM	SPL:4 (19:45:13 PM)  SPVM:5 (19:45:13 PM) SPB:2 (19:45:13 PM)
+28	SPL1111	-------		-------	Get Record Count	19:45:19 PM	SPL:4 (19:45:19 PM)  SPVM:5 (19:45:19 PM) SPB:2 (19:45:19 PM)
+29	SPL1111	-------		-------	Get Record Count	19:45:21 PM	SPL:4 (19:45:21 PM)  SPVM:5 (19:45:21 PM) SPB:2 (19:45:21 PM)
+30	SPL1111	-------		-------	Get Record Count	20:19:24 PM	SPL:0 (20:19:24 PM)  SPVM:0 (20:19:24 PM) SPB:0 (20:19:24 PM)
+31	SPL1111	-------		-------	Get Record Count	20:19:26 PM	SPL:0 (20:19:26 PM)  SPVM:0 (20:19:26 PM) SPB:0 (20:19:26 PM)
+32	SPL1111	-------		-------	Get Record Count	21:12:10 PM	SPL:0 (21:12:10 PM)  SPVM:0 (21:12:10 PM) SPB:0 (21:12:10 PM)
+33	SPL1111	-------		-------	Get Record Count	21:12:12 PM	SPL:0 (21:12:12 PM)  SPVM:0 (21:12:12 PM) SPB:0 (21:12:12 PM)
+34	SPL1111	-------		-------	Get Record Count	00:41:59 AM	SPL:0 (00:41:59 AM)  SPVM:0 (00:41:59 AM) SPB:0 (00:41:59 AM)
+35	SPL1111	-------		-------	Get Record Count	00:42:01 AM	SPL:0 (00:42:01 AM)  SPVM:0 (00:42:01 AM) SPB:0 (00:42:01 AM)
+36	SPL1111	-------		-------	Get Record Count	00:44:58 AM	SPL:0 (00:44:58 AM)  SPVM:0 (00:44:58 AM) SPB:0 (00:44:58 AM)
+37	SPL1111	-------		-------	Get Record Count	00:45:01 AM	SPL:0 (00:45:01 AM)  SPVM:0 (00:45:01 AM) SPB:0 (00:45:01 AM)
+38	SPL1111	-------		-------	Get Record Count	00:47:29 AM	SPL:0 (00:47:28 AM)  SPVM:0 (00:47:28 AM) SPB:0 (00:47:28 AM)
+39	SPL1111	-------		-------	Get Record Count	00:47:31 AM	SPL:0 (00:47:31 AM)  SPVM:0 (00:47:31 AM) SPB:0 (00:47:31 AM)
+40	SPL1111	-------		-------	Get Record Count	00:53:05 AM	SPL:0 (00:53:05 AM)  SPVM:0 (00:53:05 AM) SPB:0 (00:53:05 AM)
+41	SPL1111	-------		-------	Get Record Count	00:53:07 AM	SPL:0 (00:53:07 AM)  SPVM:0 (00:53:07 AM) SPB:0 (00:53:07 AM)
+42	SPL1111	-------		-------	Get Record Count	00:54:33 AM	SPL:0 (00:54:33 AM)  SPVM:0 (00:54:33 AM) SPB:0 (00:54:33 AM)
+43	SPL1111	-------		-------	Get Record Count	00:54:35 AM	SPL:0 (00:54:35 AM)  SPVM:0 (00:54:35 AM) SPB:0 (00:54:35 AM)
+44	SPL1111	-------		-------	Get Record Count	00:57:07 AM	SPL:0 (00:57:07 AM)  SPVM:0 (00:57:07 AM) SPB:0 (00:57:07 AM)
+45	SPL1111	-------		-------	Get Record Count	00:59:54 AM	SPL:0 (00:59:54 AM)  SPVM:0 (00:59:54 AM) SPB:0 (00:59:54 AM)
+46	SPL1111	-------		-------	Get Record Count	00:59:56 AM	SPL:0 (00:59:56 AM)  SPVM:0 (00:59:56 AM) SPB:0 (00:59:56 AM)
+47	SPL1111	-------		-------	Get Record Count	01:02:48 AM	SPL:0 (01:02:48 AM)  SPVM:0 (01:02:48 AM) SPB:0 (01:02:48 AM)
+48	SPL1111	-------		-------	Get Record Count	01:02:50 AM	SPL:0 (01:02:50 AM)  SPVM:0 (01:02:50 AM) SPB:0 (01:02:50 AM)
+49	SPL1111	-------		-------	Get Record Count	01:09:11 AM	SPL:0 (01:09:11 AM)  SPVM:0 (01:09:11 AM) SPB:0 (01:09:11 AM)
+50	SPL1111	-------		-------	Get Record Count	01:09:13 AM	SPL:0 (01:09:13 AM)  SPVM:0 (01:09:13 AM) SPB:0 (01:09:13 AM)
+51	SPL1111	-------		-------	Get Record Count	01:13:14 AM	SPL:0 (01:13:14 AM)  SPVM:0 (01:13:14 AM) SPB:0 (01:13:14 AM)
+52	SPL1111	-------		-------	Get Record Count	01:13:16 AM	SPL:0 (01:13:16 AM)  SPVM:0 (01:13:16 AM) SPB:0 (01:13:16 AM)
+53	SPL1111	-------		-------	Get Record Count	01:15:36 AM	SPL:0 (01:15:36 AM) 
+54	SPL1111	-------		-------	Get Record Count	01:15:38 AM	SPL:0 (01:15:38 AM) 
+55	SPL1111	-------		-------	Get Record Count	01:19:46 AM	SPL:0 (01:19:46 AM)  SPVM:0 (01:19:46 AM) SPB:0 (01:19:46 AM)
+56	SPL1111	-------		-------	Get Record Count	01:19:48 AM	SPL:0 (01:19:48 AM)  SPVM:0 (01:19:48 AM) SPB:0 (01:19:48 AM)
+57	SPL1111	-------		-------	Get Record Count	01:21:48 AM	SPL:0 (01:21:48 AM)  SPVM:0 (01:21:48 AM) SPB:0 (01:21:48 AM)
+58	SPL1111	-------		-------	Get Record Count	01:21:50 AM	SPL:0 (01:21:50 AM)  SPVM:0 (01:21:50 AM) SPB:0 (01:21:50 AM)
+59	SPL2222	NR11111		ONTHERUN	Created Nurse Record	01:22:00 AM	SUCCESS: Nurse Record Created
+60	SPL2222	NR11112		ONTHERUN	Created Nurse Record	01:22:02 AM	SUCCESS: Nurse Record Created
+61	SPL3333	DR11111		MISSING	Created Missing Record	01:22:02 AM	SUCCESS: Missing Record Created
+62	SPL3333	DR11112		MISSING	Created Missing Record	01:22:04 AM	SUCCESS: Missing Record Created
+63	SPL5555	MR11112			Edit Record Status	01:22:09 AM	FAILED:: Record does not exist
+64	SPL5555	MR11112			Edit Record Status	01:22:11 AM	FAILED:: Record does not exist
+65	SPL4444	-------		-------	Get Record Count	01:22:13 AM	SPL:4 (01:22:13 AM)  SPVM:2 (01:22:13 AM) SPB:2 (01:22:13 AM)
+66	SPL4444	-------		-------	Get Record Count	01:22:15 AM	SPL:4 (01:22:15 AM)  SPVM:2 (01:22:15 AM) SPB:2 (01:22:15 AM)
+67	SPL6666	CR11111		-------	Transfer Record	01:22:15 AM	Record Not Found!
+68	SPL6666	CR11111		-------	Transfer Record	01:22:17 AM	Record Not Found!
+69	SPL1111	-------		-------	Get Record Count	01:37:33 AM	SPL:0 (01:37:33 AM)  SPVM:0 (01:37:33 AM) SPB:0 (01:37:33 AM)
+70	SPL1111	-------		-------	Get Record Count	01:37:35 AM	SPL:0 (01:37:35 AM)  SPVM:0 (01:37:35 AM) SPB:0 (01:37:35 AM)
+71	SPL1111	-------		-------	Get Record Count	01:48:09 AM	SPL:0 (01:48:09 AM)  SPVM:0 (01:48:09 AM) SPB:0 (01:48:09 AM)
+72	SPL1111	-------		-------	Get Record Count	01:48:11 AM	SPL:0 (01:48:11 AM)  SPVM:0 (01:48:11 AM) SPB:0 (01:48:11 AM)
+73	SPL1111	-------		-------	Get Record Count	01:51:02 AM	SPL:0 (01:51:02 AM)  SPVM:0 (01:51:02 AM) SPB:0 (01:51:02 AM)
+74	SPL1111	-------		-------	Get Record Count	01:51:04 AM	SPL:0 (01:51:04 AM)  SPVM:0 (01:51:04 AM) SPB:0 (01:51:04 AM)
+75	SPL1111	-------		-------	Get Record Count	02:16:30 AM	SPL:0 (02:16:30 AM)  SPVM:0 (02:16:30 AM) SPB:0 (02:16:30 AM)
+76	SPL1111	-------		-------	Get Record Count	12:35:18 PM	SPL:0 (12:35:18 PM)  SPVM:0 (12:35:18 PM) SPB:0 (12:35:18 PM)
