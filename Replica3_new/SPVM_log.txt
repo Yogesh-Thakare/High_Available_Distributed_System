@@ -1,0 +1,287 @@
+No.	Badge ID	Record ID	Status	Operation		Time		Transaction Status
+1	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:00:57 PM	SUCCESS: Criminal Record Created
+2	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:03:38 PM	SUCCESS: Criminal Record Created
+3	SPVM1112	CR11112		CAPTURED	Created Criminal Record	23:03:39 PM	SUCCESS: Criminal Record Created
+4	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:05:31 PM	SUCCESS: Criminal Record Created
+5	SPVM1112	CR11112		CAPTURED	Created Criminal Record	23:05:32 PM	SUCCESS: Criminal Record Created
+6	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:08:25 PM	SUCCESS: Criminal Record Created
+7	SPVM1112	CR11112		CAPTURED	Created Criminal Record	23:08:26 PM	SUCCESS: Criminal Record Created
+8	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:16:33 PM	SUCCESS: Criminal Record Created
+9	SPVM1112	CR11112		CAPTURED	Created Criminal Record	23:16:55 PM	SUCCESS: Criminal Record Created
+10	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:17:31 PM	SUCCESS: Criminal Record Created
+11	SPVM1111	CR11111		CAPTURED	Created Criminal Record	23:18:51 PM	SUCCESS: Criminal Record Created
+12	SPVM1111	CR11111		CAPTURED	Created Criminal Record	23:20:45 PM	SUCCESS: Criminal Record Created
+13	SPVM1113	CR11111		CAPTURED	Created Criminal Record	23:22:41 PM	SUCCESS: Criminal Record Created
+14	SPVM1113	CR11112		CAPTURED	Created Criminal Record	23:33:46 PM	SUCCESS: Criminal Record Created
+15	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:37:56 PM	SUCCESS: Criminal Record Created
+16	SPVM1113	CR11111		CAPTURED	Created Criminal Record	23:51:03 PM	SUCCESS: Criminal Record Created
+17	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:58:58 PM	SUCCESS: Criminal Record Created
+18	SPVM1113	CR11111		CAPTURED	Created Criminal Record	00:03:55 AM	SUCCESS: Criminal Record Created
+19	SPVM1112	CR11111		CAPTURED	Created Criminal Record	00:07:57 AM	SUCCESS: Criminal Record Created
+20	SPVM1113	CR11111		CAPTURED	Created Criminal Record	00:09:25 AM	SUCCESS: Criminal Record Created
+21	SPVM1111	CR11111		CAPTURED	Created Criminal Record	00:22:09 AM	SUCCESS: Criminal Record Created
+22	SPVM1111	CR11112		CAPTURED	Created Criminal Record	00:22:13 AM	SUCCESS: Criminal Record Created
+23	SPVM1111	CR11111		CAPTURED	Created Criminal Record	00:24:30 AM	SUCCESS: Criminal Record Created
+24	SPVM1111	CR11112		CAPTURED	Created Criminal Record	00:24:33 AM	SUCCESS: Criminal Record Created
+25	SPVM1112	CR11111		CAPTURED	Created Criminal Record	00:26:10 AM	SUCCESS: Criminal Record Created
+26	SPVM1112	CR11112		CAPTURED	Created Criminal Record	00:26:14 AM	SUCCESS: Criminal Record Created
+27	SPVM1111	CR11111		CAPTURED	Created Criminal Record	15:36:35 PM	SUCCESS: Criminal Record Created
+28	SPVM1111	CR11112		CAPTURED	Created Criminal Record	15:36:37 PM	SUCCESS: Criminal Record Created
+29	SPVM1113	CR11111		CAPTURED	Created Criminal Record	15:37:33 PM	SUCCESS: Criminal Record Created
+30	SPVM1113	CR11112		CAPTURED	Created Criminal Record	15:37:35 PM	SUCCESS: Criminal Record Created
+31	SPVM1111	CR11111		CAPTURED	Created Criminal Record	17:49:03 PM	SUCCESS: Criminal Record Created
+32	SPVM1111	CR11112		CAPTURED	Created Criminal Record	17:49:05 PM	SUCCESS: Criminal Record Created
+33	SPVM1113	CR11111		CAPTURED	Created Criminal Record	17:10:28 PM	SUCCESS: Criminal Record Created
+34	SPVM1113	CR11112		CAPTURED	Created Criminal Record	17:13:27 PM	SUCCESS: Criminal Record Created
+35	SPVM1111	CR11111		CAPTURED	Created Criminal Record	17:16:44 PM	SUCCESS: Criminal Record Created
+36	SPVM1111	CR11112		CAPTURED	Created Criminal Record	17:16:46 PM	SUCCESS: Criminal Record Created
+37	SPVM1113	CR11111		CAPTURED	Created Criminal Record	17:20:08 PM	SUCCESS: Criminal Record Created
+38	SPVM1113	CR11112		CAPTURED	Created Criminal Record	17:20:10 PM	SUCCESS: Criminal Record Created
+39	SPVM1111	CR11111		CAPTURED	Created Criminal Record	17:22:39 PM	SUCCESS: Criminal Record Created
+40	SPVM1111	CR11112		CAPTURED	Created Criminal Record	17:22:41 PM	SUCCESS: Criminal Record Created
+41	SPVM1113	CR11111		CAPTURED	Created Criminal Record	17:28:10 PM	SUCCESS: Criminal Record Created
+42	SPVM1113	CR11112		CAPTURED	Created Criminal Record	17:28:12 PM	SUCCESS: Criminal Record Created
+43	SPVM1111	CR11111		CAPTURED	Created Criminal Record	17:29:47 PM	SUCCESS: Criminal Record Created
+44	SPVM1111	CR11112		CAPTURED	Created Criminal Record	17:29:49 PM	SUCCESS: Criminal Record Created
+45	SPVM1111	CR11111		CAPTURED	Created Criminal Record	17:31:58 PM	SUCCESS: Criminal Record Created
+46	SPVM1111	CR11112		CAPTURED	Created Criminal Record	17:32:00 PM	SUCCESS: Criminal Record Created
+47	SPVM1113	CR11111		CAPTURED	Created Criminal Record	17:38:10 PM	SUCCESS: Criminal Record Created
+48	SPVM1113	CR11112		CAPTURED	Created Criminal Record	17:38:12 PM	SUCCESS: Criminal Record Created
+49	SPVM1113	CR11111		CAPTURED	Created Criminal Record	17:49:03 PM	SUCCESS: Criminal Record Created
+50	SPVM1113	CR11112		CAPTURED	Created Criminal Record	17:49:05 PM	SUCCESS: Criminal Record Created
+51	SPVM1111	CR11111		CAPTURED	Created Criminal Record	17:51:10 PM	SUCCESS: Criminal Record Created
+52	SPVM1111	CR11112		CAPTURED	Created Criminal Record	17:51:12 PM	SUCCESS: Criminal Record Created
+53	SPVM1113	CR11113		CAPTURED	Created Criminal Record	17:51:16 PM	SUCCESS: Criminal Record Created
+54	SPVM1113	CR11114		CAPTURED	Created Criminal Record	17:51:18 PM	SUCCESS: Criminal Record Created
+55	SPVM1112	CR11115		CAPTURED	Created Criminal Record	17:51:21 PM	SUCCESS: Criminal Record Created
+56	SPVM1112	CR11116		CAPTURED	Created Criminal Record	17:51:23 PM	SUCCESS: Criminal Record Created
+57	SPVM1112	CR11111		CAPTURED	Created Criminal Record	17:54:08 PM	SUCCESS: Criminal Record Created
+58	SPVM1112	CR11112		CAPTURED	Created Criminal Record	17:54:10 PM	SUCCESS: Criminal Record Created
+59	SPVM1113	CR11113		CAPTURED	Created Criminal Record	17:54:10 PM	SUCCESS: Criminal Record Created
+60	SPVM1113	CR11114		CAPTURED	Created Criminal Record	17:54:12 PM	SUCCESS: Criminal Record Created
+61	SPVM1111	CR11115		CAPTURED	Created Criminal Record	17:54:12 PM	SUCCESS: Criminal Record Created
+62	SPVM1111	CR11116		CAPTURED	Created Criminal Record	17:54:14 PM	SUCCESS: Criminal Record Created
+63	SPVM1113	CR11111		CAPTURED	Created Criminal Record	20:14:49 PM	SUCCESS: Criminal Record Created
+64	SPVM1113	CR11112		CAPTURED	Created Criminal Record	20:14:51 PM	SUCCESS: Criminal Record Created
+65	SPVM1112	CR11113		CAPTURED	Created Criminal Record	20:14:51 PM	SUCCESS: Criminal Record Created
+66	SPVM1112	CR11114		CAPTURED	Created Criminal Record	20:14:53 PM	SUCCESS: Criminal Record Created
+67	SPVM1111	CR11115		CAPTURED	Created Criminal Record	20:14:53 PM	SUCCESS: Criminal Record Created
+68	SPVM1111	CR11116		CAPTURED	Created Criminal Record	20:14:55 PM	SUCCESS: Criminal Record Created
+69	SPVM1112	CR11111		CAPTURED	Created Criminal Record	20:24:11 PM	SUCCESS: Criminal Record Created
+70	SPVM1112	CR11112		CAPTURED	Created Criminal Record	20:24:13 PM	SUCCESS: Criminal Record Created
+71	SPVM1111	CR11113		CAPTURED	Created Criminal Record	20:24:13 PM	SUCCESS: Criminal Record Created
+72	SPVM1111	CR11114		CAPTURED	Created Criminal Record	20:24:15 PM	SUCCESS: Criminal Record Created
+73	SPVM1113	CR11115		CAPTURED	Created Criminal Record	20:24:15 PM	SUCCESS: Criminal Record Created
+74	SPVM1113	CR11116		CAPTURED	Created Criminal Record	20:24:17 PM	SUCCESS: Criminal Record Created
+75	SPVM1112	CR11111		CAPTURED	Created Criminal Record	20:25:25 PM	SUCCESS: Criminal Record Created
+76	SPVM1112	CR11112		CAPTURED	Created Criminal Record	20:25:27 PM	SUCCESS: Criminal Record Created
+77	SPVM1111	CR11113		CAPTURED	Created Criminal Record	20:25:27 PM	SUCCESS: Criminal Record Created
+78	SPVM1111	CR11114		CAPTURED	Created Criminal Record	20:25:29 PM	SUCCESS: Criminal Record Created
+79	SPVM1113	CR11115		CAPTURED	Created Criminal Record	20:25:29 PM	SUCCESS: Criminal Record Created
+80	SPVM1113	CR11116		CAPTURED	Created Criminal Record	20:25:31 PM	SUCCESS: Criminal Record Created
+81	SPVM1111	CR11111		CAPTURED	Created Criminal Record	20:29:29 PM	SUCCESS: Criminal Record Created
+82	SPVM1111	CR11112		CAPTURED	Created Criminal Record	20:29:31 PM	SUCCESS: Criminal Record Created
+83	SPVM1112	CR11113		CAPTURED	Created Criminal Record	20:29:31 PM	SUCCESS: Criminal Record Created
+84	SPVM1112	CR11114		CAPTURED	Created Criminal Record	20:29:33 PM	SUCCESS: Criminal Record Created
+85	SPVM1113	CR11115		CAPTURED	Created Criminal Record	20:29:33 PM	SUCCESS: Criminal Record Created
+86	SPVM1113	CR11116		CAPTURED	Created Criminal Record	20:29:35 PM	SUCCESS: Criminal Record Created
+87	SPVM1113	CR11111		CAPTURED	Created Criminal Record	20:32:59 PM	SUCCESS: Criminal Record Created
+88	SPVM1113	CR11112		CAPTURED	Created Criminal Record	20:33:01 PM	SUCCESS: Criminal Record Created
+89	SPVM1111	CR11113		CAPTURED	Created Criminal Record	20:33:01 PM	SUCCESS: Criminal Record Created
+90	SPVM1111	CR11114		CAPTURED	Created Criminal Record	20:33:03 PM	SUCCESS: Criminal Record Created
+91	SPVM1112	CR11115		CAPTURED	Created Criminal Record	20:33:03 PM	SUCCESS: Criminal Record Created
+92	SPVM1112	CR11116		CAPTURED	Created Criminal Record	20:33:05 PM	SUCCESS: Criminal Record Created
+93	SPVM1111	CR11111		CAPTURED	Created Criminal Record	20:39:37 PM	SUCCESS: Criminal Record Created
+94	SPVM1111	CR11112		CAPTURED	Created Criminal Record	20:39:39 PM	SUCCESS: Criminal Record Created
+95	SPVM1112	CR11113		CAPTURED	Created Criminal Record	20:39:39 PM	SUCCESS: Criminal Record Created
+96	SPVM1112	CR11114		CAPTURED	Created Criminal Record	20:39:41 PM	SUCCESS: Criminal Record Created
+97	SPVM1113	CR11115		CAPTURED	Created Criminal Record	20:39:41 PM	SUCCESS: Criminal Record Created
+98	SPVM1113	CR11116		CAPTURED	Created Criminal Record	20:39:43 PM	SUCCESS: Criminal Record Created
+99	SPVM1111	CR11111		CAPTURED	Created Criminal Record	20:44:41 PM	SUCCESS: Criminal Record Created
+100	SPVM1111	CR11112		CAPTURED	Created Criminal Record	20:44:43 PM	SUCCESS: Criminal Record Created
+101	SPVM1113	CR11113		CAPTURED	Created Criminal Record	20:44:43 PM	SUCCESS: Criminal Record Created
+102	SPVM1113	CR11114		CAPTURED	Created Criminal Record	20:44:45 PM	SUCCESS: Criminal Record Created
+103	SPVM1112	CR11115		CAPTURED	Created Criminal Record	20:44:45 PM	SUCCESS: Criminal Record Created
+104	SPVM1112	CR11116		CAPTURED	Created Criminal Record	20:44:47 PM	SUCCESS: Criminal Record Created
+105	SPVM1112	CR11111		CAPTURED	Created Criminal Record	20:49:20 PM	SUCCESS: Criminal Record Created
+106	SPVM1112	CR11112		CAPTURED	Created Criminal Record	20:49:22 PM	SUCCESS: Criminal Record Created
+107	SPVM1113	CR11113		CAPTURED	Created Criminal Record	20:49:22 PM	SUCCESS: Criminal Record Created
+108	SPVM1113	CR11114		CAPTURED	Created Criminal Record	20:49:24 PM	SUCCESS: Criminal Record Created
+109	SPVM1111	CR11115		CAPTURED	Created Criminal Record	20:49:24 PM	SUCCESS: Criminal Record Created
+110	SPVM1111	CR11116		CAPTURED	Created Criminal Record	20:49:26 PM	SUCCESS: Criminal Record Created
+111	SPVM1112	CR11111		CAPTURED	Created Criminal Record	20:54:22 PM	SUCCESS: Criminal Record Created
+112	SPVM1112	CR11112		CAPTURED	Created Criminal Record	20:54:24 PM	SUCCESS: Criminal Record Created
+113	SPVM1113	CR11113		CAPTURED	Created Criminal Record	20:54:24 PM	SUCCESS: Criminal Record Created
+114	SPVM1113	CR11114		CAPTURED	Created Criminal Record	20:54:26 PM	SUCCESS: Criminal Record Created
+115	SPVM1111	CR11115		CAPTURED	Created Criminal Record	20:54:26 PM	SUCCESS: Criminal Record Created
+116	SPVM1111	CR11116		CAPTURED	Created Criminal Record	20:54:28 PM	SUCCESS: Criminal Record Created
+117	SPVM1111	CR11111		CAPTURED	Created Criminal Record	21:00:23 PM	SUCCESS: Criminal Record Created
+118	SPVM1111	CR11112		CAPTURED	Created Criminal Record	21:00:25 PM	SUCCESS: Criminal Record Created
+119	SPVM1113	CR11113		CAPTURED	Created Criminal Record	21:00:25 PM	SUCCESS: Criminal Record Created
+120	SPVM1113	CR11114		CAPTURED	Created Criminal Record	21:00:27 PM	SUCCESS: Criminal Record Created
+121	SPVM1112	CR11115		CAPTURED	Created Criminal Record	21:00:27 PM	SUCCESS: Criminal Record Created
+122	SPVM1112	CR11116		CAPTURED	Created Criminal Record	21:00:29 PM	SUCCESS: Criminal Record Created
+123	SPVM1111	CR11111		CAPTURED	Created Criminal Record	21:19:55 PM	SUCCESS: Criminal Record Created
+124	SPVM1111	CR11112		CAPTURED	Created Criminal Record	21:19:57 PM	SUCCESS: Criminal Record Created
+125	SPVM1113	CR11113		CAPTURED	Created Criminal Record	21:19:57 PM	SUCCESS: Criminal Record Created
+126	SPVM1113	CR11114		CAPTURED	Created Criminal Record	21:19:59 PM	SUCCESS: Criminal Record Created
+127	SPVM1112	CR11115		CAPTURED	Created Criminal Record	21:20:01 PM	SUCCESS: Criminal Record Created
+128	SPVM1112	CR11116		CAPTURED	Created Criminal Record	21:20:03 PM	SUCCESS: Criminal Record Created
+129	SPVM1111	CR11111		CAPTURED	Created Criminal Record	21:24:01 PM	SUCCESS: Criminal Record Created
+130	SPVM1111	CR11112		CAPTURED	Created Criminal Record	21:24:03 PM	SUCCESS: Criminal Record Created
+131	SPVM1112	CR11113		CAPTURED	Created Criminal Record	21:24:03 PM	SUCCESS: Criminal Record Created
+132	SPVM1112	CR11114		CAPTURED	Created Criminal Record	21:24:05 PM	SUCCESS: Criminal Record Created
+133	SPVM1113	CR11115		CAPTURED	Created Criminal Record	21:24:05 PM	SUCCESS: Criminal Record Created
+134	SPVM1113	CR11116		CAPTURED	Created Criminal Record	21:24:07 PM	SUCCESS: Criminal Record Created
+135	SPVM1112	CR11111		CAPTURED	Created Criminal Record	21:26:55 PM	SUCCESS: Criminal Record Created
+136	SPVM1112	CR11112		CAPTURED	Created Criminal Record	21:26:57 PM	SUCCESS: Criminal Record Created
+137	SPVM1113	CR11113		CAPTURED	Created Criminal Record	21:26:57 PM	SUCCESS: Criminal Record Created
+138	SPVM1113	CR11114		CAPTURED	Created Criminal Record	21:26:59 PM	SUCCESS: Criminal Record Created
+139	SPVM1111	CR11115		CAPTURED	Created Criminal Record	21:26:59 PM	SUCCESS: Criminal Record Created
+140	SPVM1111	CR11116		CAPTURED	Created Criminal Record	21:27:01 PM	SUCCESS: Criminal Record Created
+141	SPVM1111	CR11111		CAPTURED	Created Criminal Record	21:51:01 PM	SUCCESS: Criminal Record Created
+142	SPVM1111	CR11112		CAPTURED	Created Criminal Record	21:51:03 PM	SUCCESS: Criminal Record Created
+143	SPVM1113	CR11113		CAPTURED	Created Criminal Record	21:51:03 PM	SUCCESS: Criminal Record Created
+144	SPVM1113	CR11114		CAPTURED	Created Criminal Record	21:51:05 PM	SUCCESS: Criminal Record Created
+145	SPVM1112	CR11115		CAPTURED	Created Criminal Record	21:51:05 PM	SUCCESS: Criminal Record Created
+146	SPVM1112	CR11116		CAPTURED	Created Criminal Record	21:51:07 PM	SUCCESS: Criminal Record Created
+147	SPVM1111	CR11117		CAPTURED	Created Criminal Record	21:51:56 PM	SUCCESS: Criminal Record Created
+148	SPVM1111	CR11118		CAPTURED	Created Criminal Record	21:51:58 PM	SUCCESS: Criminal Record Created
+149	SPVM1112	CR11119		CAPTURED	Created Criminal Record	21:51:58 PM	SUCCESS: Criminal Record Created
+150	SPVM1112	CR11120		CAPTURED	Created Criminal Record	21:52:00 PM	SUCCESS: Criminal Record Created
+151	SPVM1113	CR11121		CAPTURED	Created Criminal Record	21:52:00 PM	SUCCESS: Criminal Record Created
+152	SPVM1113	CR11122		CAPTURED	Created Criminal Record	21:52:02 PM	SUCCESS: Criminal Record Created
+153	SPVM1111	CR11111		CAPTURED	Created Criminal Record	21:54:24 PM	SUCCESS: Criminal Record Created
+154	SPVM1111	CR11112		CAPTURED	Created Criminal Record	21:54:26 PM	SUCCESS: Criminal Record Created
+155	SPVM1113	CR11113		CAPTURED	Created Criminal Record	21:54:26 PM	SUCCESS: Criminal Record Created
+156	SPVM1113	CR11114		CAPTURED	Created Criminal Record	21:54:28 PM	SUCCESS: Criminal Record Created
+157	SPVM1112	CR11115		CAPTURED	Created Criminal Record	21:54:28 PM	SUCCESS: Criminal Record Created
+158	SPVM1112	CR11116		CAPTURED	Created Criminal Record	21:54:30 PM	SUCCESS: Criminal Record Created
+159	SPVM1112	CR11117		CAPTURED	Created Criminal Record	21:55:05 PM	SUCCESS: Criminal Record Created
+160	SPVM1112	CR11118		CAPTURED	Created Criminal Record	21:55:07 PM	SUCCESS: Criminal Record Created
+161	SPVM1111	CR11119		CAPTURED	Created Criminal Record	21:55:07 PM	SUCCESS: Criminal Record Created
+162	SPVM1111	CR11120		CAPTURED	Created Criminal Record	21:55:09 PM	SUCCESS: Criminal Record Created
+163	SPVM1113	CR11121		CAPTURED	Created Criminal Record	21:55:09 PM	SUCCESS: Criminal Record Created
+164	SPVM1113	CR11122		CAPTURED	Created Criminal Record	21:55:11 PM	SUCCESS: Criminal Record Created
+165	SPVM1111	CR11111		CAPTURED	Created Criminal Record	22:02:59 PM	SUCCESS: Criminal Record Created
+166	SPVM1111	CR11112		CAPTURED	Created Criminal Record	22:03:01 PM	SUCCESS: Criminal Record Created
+167	SPVM1113	CR11113		CAPTURED	Created Criminal Record	22:03:01 PM	SUCCESS: Criminal Record Created
+168	SPVM1113	CR11114		CAPTURED	Created Criminal Record	22:03:03 PM	SUCCESS: Criminal Record Created
+169	SPVM1112	CR11115		CAPTURED	Created Criminal Record	22:03:03 PM	SUCCESS: Criminal Record Created
+170	SPVM1112	CR11116		CAPTURED	Created Criminal Record	22:03:05 PM	SUCCESS: Criminal Record Created
+171	SPVM1113	CR11111		CAPTURED	Created Criminal Record	22:12:36 PM	SUCCESS: Criminal Record Created
+172	SPVM1113	CR11112		CAPTURED	Created Criminal Record	22:12:38 PM	SUCCESS: Criminal Record Created
+173	SPVM1111	CR11113		CAPTURED	Created Criminal Record	22:12:38 PM	SUCCESS: Criminal Record Created
+174	SPVM1111	CR11114		CAPTURED	Created Criminal Record	22:12:40 PM	SUCCESS: Criminal Record Created
+175	SPVM1112	CR11115		CAPTURED	Created Criminal Record	22:12:40 PM	SUCCESS: Criminal Record Created
+176	SPVM1112	CR11116		CAPTURED	Created Criminal Record	22:12:42 PM	SUCCESS: Criminal Record Created
+177	SPVM1111	CR11111		CAPTURED	Created Criminal Record	22:22:50 PM	SUCCESS: Criminal Record Created
+178	SPVM1111	CR11112		CAPTURED	Created Criminal Record	22:22:52 PM	SUCCESS: Criminal Record Created
+179	SPVM1112	CR11113		CAPTURED	Created Criminal Record	22:22:52 PM	SUCCESS: Criminal Record Created
+180	SPVM1112	CR11114		CAPTURED	Created Criminal Record	22:22:54 PM	SUCCESS: Criminal Record Created
+181	SPVM1113	CR11115		CAPTURED	Created Criminal Record	22:22:54 PM	SUCCESS: Criminal Record Created
+182	SPVM1113	CR11116		CAPTURED	Created Criminal Record	22:22:56 PM	SUCCESS: Criminal Record Created
+183	SPVM1112	CR11111		CAPTURED	Created Criminal Record	22:26:11 PM	SUCCESS: Criminal Record Created
+184	SPVM1112	CR11112		CAPTURED	Created Criminal Record	22:26:13 PM	SUCCESS: Criminal Record Created
+185	SPVM1111	CR11113		CAPTURED	Created Criminal Record	22:26:13 PM	SUCCESS: Criminal Record Created
+186	SPVM1111	CR11114		CAPTURED	Created Criminal Record	22:26:15 PM	SUCCESS: Criminal Record Created
+187	SPVM1113	CR11115		CAPTURED	Created Criminal Record	22:26:15 PM	SUCCESS: Criminal Record Created
+188	SPVM1113	CR11116		CAPTURED	Created Criminal Record	22:26:17 PM	SUCCESS: Criminal Record Created
+189	SPVM1112	CR11111		CAPTURED	Created Criminal Record	22:58:15 PM	SUCCESS: Criminal Record Created
+190	SPVM1112	CR11112		CAPTURED	Created Criminal Record	22:58:17 PM	SUCCESS: Criminal Record Created
+191	SPVM1113	CR11113		CAPTURED	Created Criminal Record	22:58:17 PM	SUCCESS: Criminal Record Created
+192	SPVM1113	CR11114		CAPTURED	Created Criminal Record	22:58:19 PM	SUCCESS: Criminal Record Created
+193	SPVM1111	CR11115		CAPTURED	Created Criminal Record	22:58:19 PM	SUCCESS: Criminal Record Created
+194	SPVM1111	CR11116		CAPTURED	Created Criminal Record	22:58:21 PM	SUCCESS: Criminal Record Created
+195	SPVM1112	CR11111		CAPTURED	Created Criminal Record	23:03:52 PM	SUCCESS: Criminal Record Created
+196	SPVM1112	CR11112		CAPTURED	Created Criminal Record	23:03:54 PM	SUCCESS: Criminal Record Created
+197	SPVM1111	CR11113		CAPTURED	Created Criminal Record	23:03:54 PM	SUCCESS: Criminal Record Created
+198	SPVM1111	CR11114		CAPTURED	Created Criminal Record	23:03:56 PM	SUCCESS: Criminal Record Created
+199	SPVM1113	CR11115		CAPTURED	Created Criminal Record	23:03:56 PM	SUCCESS: Criminal Record Created
+200	SPVM1113	CR11116		CAPTURED	Created Criminal Record	23:03:58 PM	SUCCESS: Criminal Record Created
+201	SPVM3333	MR11111		MISSING	Created Missing Record	17:06:04 PM	SUCCESS: Missing Record Created
+202	SPVM3333	MR11112		MISSING	Created Missing Record	17:06:06 PM	SUCCESS: Missing Record Created
+203	SPVM2222	CR11113		CAPTURED	Created Criminal Record	17:06:08 PM	SUCCESS: Criminal Record Created
+204	SPVM2222	CR11114		CAPTURED	Created Criminal Record	17:06:10 PM	SUCCESS: Criminal Record Created
+205	SPVM5555	CR11112			Edit Record Status	17:06:17 PM	FAILED:: Record does not exist
+206	SPVM5555	CR11112			Edit Record Status	17:06:19 PM	FAILED:: Record does not exist
+207	SPVM4444	-------		-------	Get Record Count	17:06:19 PM	SPVM:4 (17:06:19 PM)  SPB:2 (17:06:19 PM) SPL:2 (17:06:19 PM)
+208	SPVM4444	-------		-------	Get Record Count	17:06:21 PM	SPVM:4 (17:06:21 PM)  SPB:2 (17:06:21 PM) SPL:2 (17:06:21 PM)
+209	SPVM3333	MR11111		MISSING	Created Missing Record	18:29:37 PM	SUCCESS: Missing Record Created
+210	SPVM3333	MR11112		MISSING	Created Missing Record	18:29:39 PM	SUCCESS: Missing Record Created
+211	SPVM5555	CR11112			Edit Record Status	18:29:43 PM	FAILED: Record does not exist
+212	SPVM5555	CR11112			Edit Record Status	18:29:45 PM	FAILED: Record does not exist
+213	SPVM2222	CR11113		CAPTURED	Created Criminal Record	18:29:47 PM	SUCCESS: Criminal Record Created
+214	SPVM2222	CR11114		CAPTURED	Created Criminal Record	18:29:49 PM	SUCCESS: Criminal Record Created
+215	SPVM4444	-------		-------	Get Record Count	18:29:49 PM	SPVM:4 (18:29:49 PM)  SPB:2 (18:29:49 PM) SPL:2 (18:29:49 PM)
+216	SPVM4444	-------		-------	Get Record Count	18:29:51 PM	SPVM:4 (18:29:51 PM)  SPB:2 (18:29:51 PM) SPL:2 (18:29:51 PM)
+217	SPVM1111	-------		-------	Get Record Count	18:11:35 PM	SPVM:0 (18:11:35 PM)  SPB:0 (18:11:35 PM) SPL:0 (18:11:35 PM)
+218	SPVM1111	-------		-------	Get Record Count	18:11:37 PM	SPVM:0 (18:11:37 PM)  SPB:0 (18:11:37 PM) SPL:0 (18:11:37 PM)
+219	SPVM4444	-------		-------	Get Record Count	19:36:38 PM	SPVM:0 (19:36:38 PM)  SPB:0 (19:36:38 PM) SPL:0 (19:36:38 PM)
+220	SPVM4444	-------		-------	Get Record Count	19:36:40 PM	SPVM:0 (19:36:40 PM)  SPB:0 (19:36:40 PM) SPL:0 (19:36:40 PM)
+221	SPVM5555	CR11112			Edit Record Status	19:36:44 PM	FAILED: Record does not exist
+222	SPVM5555	CR11112			Edit Record Status	19:36:46 PM	FAILED: Record does not exist
+223	SPVM3333	MR11111		MISSING	Created Missing Record	19:36:51 PM	SUCCESS: Missing Record Created
+224	SPVM3333	MR11112		MISSING	Created Missing Record	19:36:53 PM	SUCCESS: Missing Record Created
+225	SPVM2222	CR11115		CAPTURED	Created Criminal Record	19:36:55 PM	SUCCESS: Criminal Record Created
+226	SPVM2222	CR11116		CAPTURED	Created Criminal Record	19:36:57 PM	SUCCESS: Criminal Record Created
+227	SPVM1113	CR11117		CAPTURED	Created Criminal Record	19:44:45 PM	SUCCESS: Criminal Record Created
+228	SPVM1113	CR11118		CAPTURED	Created Criminal Record	19:44:48 PM	SUCCESS: Criminal Record Created
+229	SPVM1112	CR11119		CAPTURED	Created Criminal Record	19:44:48 PM	SUCCESS: Criminal Record Created
+230	SPVM1112	CR11120		CAPTURED	Created Criminal Record	19:44:50 PM	SUCCESS: Criminal Record Created
+231	SPVM1111	CR11121		CAPTURED	Created Criminal Record	19:44:50 PM	SUCCESS: Criminal Record Created
+232	SPVM1111	CR11122		CAPTURED	Created Criminal Record	19:44:52 PM	SUCCESS: Criminal Record Created
+233	SPVM1111	-------		-------	Get Record Count	19:45:15 PM	SPVM:10 (19:45:15 PM)  SPB:2 (19:45:15 PM) SPL:2 (19:45:15 PM)
+234	SPVM1111	-------		-------	Get Record Count	19:45:17 PM	SPVM:10 (19:45:17 PM)  SPB:2 (19:45:17 PM) SPL:2 (19:45:17 PM)
+235	SPVM1111	-------		-------	Get Record Count	19:45:22 PM	SPVM:10 (19:45:22 PM)  SPB:2 (19:45:22 PM) SPL:2 (19:45:22 PM)
+236	SPVM1111	-------		-------	Get Record Count	19:45:24 PM	SPVM:10 (19:45:24 PM)  SPB:2 (19:45:24 PM) SPL:2 (19:45:24 PM)
+237	SPVM1111	-------		-------	Get Record Count	20:19:26 PM	SPVM:0 (20:19:26 PM)  SPB:0 (20:19:26 PM) SPL:0 (20:19:26 PM)
+238	SPVM1111	-------		-------	Get Record Count	20:19:28 PM	SPVM:0 (20:19:28 PM)  SPB:0 (20:19:28 PM) SPL:0 (20:19:28 PM)
+239	SPVM1111	-------		-------	Get Record Count	21:12:12 PM	SPVM:0 (21:12:12 PM)  SPB:0 (21:12:12 PM) SPL:0 (21:12:12 PM)
+240	SPVM1111	-------		-------	Get Record Count	21:12:14 PM	SPVM:0 (21:12:14 PM)  SPB:0 (21:12:14 PM) SPL:0 (21:12:14 PM)
+241	SPVM1111	-------		-------	Get Record Count	21:22:03 PM	SPVM:0 (21:22:03 PM)  SPB:0 (21:22:03 PM) SPL:0 (21:22:03 PM)
+242	SPVM1111	-------		-------	Get Record Count	21:22:05 PM	SPVM:0 (21:22:05 PM)  SPB:0 (21:22:05 PM) SPL:0 (21:22:05 PM)
+243	SPVM1111	-------		-------	Get Record Count	00:42:01 AM	SPVM:0 (00:42:01 AM)  SPB:0 (00:42:01 AM) SPL:0 (00:42:01 AM)
+244	SPVM1111	-------		-------	Get Record Count	00:42:03 AM	SPVM:0 (00:42:03 AM)  SPB:0 (00:42:03 AM) SPL:0 (00:42:03 AM)
+245	SPVM1111	-------		-------	Get Record Count	00:45:01 AM	SPVM:0 (00:45:01 AM)  SPB:0 (00:45:01 AM) SPL:0 (00:45:01 AM)
+246	SPVM1111	-------		-------	Get Record Count	00:45:03 AM	SPVM:0 (00:45:03 AM)  SPB:0 (00:45:03 AM) SPL:0 (00:45:03 AM)
+247	SPVM1111	-------		-------	Get Record Count	00:47:31 AM	SPVM:0 (00:47:31 AM)  SPB:0 (00:47:31 AM) SPL:0 (00:47:31 AM)
+248	SPVM1111	-------		-------	Get Record Count	00:47:33 AM	SPVM:0 (00:47:33 AM)  SPB:0 (00:47:33 AM) SPL:0 (00:47:33 AM)
+249	SPVM1111	-------		-------	Get Record Count	00:53:01 AM	SPVM:0 (00:53:01 AM)  SPB:0 (00:53:01 AM) SPL:0 (00:53:01 AM)
+250	SPVM1111	-------		-------	Get Record Count	00:53:03 AM	SPVM:0 (00:53:03 AM)  SPB:0 (00:53:03 AM) SPL:0 (00:53:03 AM)
+251	SPVM1111	-------		-------	Get Record Count	00:54:30 AM	SPVM:0 (00:54:30 AM)  SPB:0 (00:54:30 AM) SPL:0 (00:54:30 AM)
+252	SPVM1111	-------		-------	Get Record Count	00:54:32 AM	SPVM:0 (00:54:32 AM)  SPB:0 (00:54:32 AM) SPL:0 (00:54:32 AM)
+253	SPVM1111	-------		-------	Get Record Count	00:57:05 AM	SPVM:0 (00:57:05 AM)  SPB:0 (00:57:05 AM) SPL:0 (00:57:05 AM)
+254	SPVM1111	-------		-------	Get Record Count	00:57:07 AM	SPVM:0 (00:57:07 AM)  SPB:0 (00:57:07 AM) SPL:0 (00:57:07 AM)
+255	SPVM1111	-------		-------	Get Record Count	00:59:56 AM	SPVM:0 (00:59:56 AM)  SPB:0 (00:59:56 AM) SPL:0 (00:59:56 AM)
+256	SPVM1111	-------		-------	Get Record Count	00:59:58 AM	SPVM:0 (00:59:58 AM)  SPB:0 (00:59:58 AM) SPL:0 (00:59:58 AM)
+257	SPVM1111	NR11111		CAPTURED	Created Nurse Record	01:00:04 AM	SUCCESS: Nurse Record Created
+258	SPVM1111	NR11112		CAPTURED	Created Nurse Record	01:00:06 AM	SUCCESS: Nurse Record Created
+259	SPVM1112	NR11113		CAPTURED	Created Nurse Record	01:00:06 AM	SUCCESS: Nurse Record Created
+260	SPVM1112	NR11114		CAPTURED	Created Nurse Record	01:00:08 AM	SUCCESS: Nurse Record Created
+261	SPVM1113	NR11115		CAPTURED	Created Nurse Record	01:00:08 AM	SUCCESS: Nurse Record Created
+262	SPVM1113	NR11116		CAPTURED	Created Nurse Record	01:00:10 AM	SUCCESS: Nurse Record Created
+263	SPVM1111	-------		-------	Get Record Count	01:02:46 AM	SPVM:0 (01:02:46 AM)  SPB:0 (01:02:46 AM) SPL:0 (01:02:46 AM)
+264	SPVM1111	-------		-------	Get Record Count	01:02:48 AM	SPVM:0 (01:02:48 AM)  SPB:0 (01:02:48 AM) SPL:0 (01:02:48 AM)
+265	SPVM1111	-------		-------	Get Record Count	01:09:09 AM	SPVM:0 (01:09:09 AM)  SPB:0 (01:09:09 AM) SPL:0 (01:09:09 AM)
+266	SPVM1111	-------		-------	Get Record Count	01:09:11 AM	SPVM:0 (01:09:11 AM)  SPB:0 (01:09:11 AM) SPL:0 (01:09:11 AM)
+267	SPVM1111	-------		-------	Get Record Count	01:13:18 AM	SPVM:0 (01:13:18 AM)  SPB:0 (01:13:18 AM) SPL:0 (01:13:18 AM)
+268	SPVM1111	-------		-------	Get Record Count	01:13:21 AM	SPVM:0 (01:13:21 AM)  SPB:0 (01:13:21 AM) SPL:0 (01:13:21 AM)
+269	SPVM1111	-------		-------	Get Record Count	01:15:38 AM	SPVM:0 (01:15:38 AM) 
+270	SPVM1111	-------		-------	Get Record Count	01:15:40 AM	SPVM:0 (01:15:40 AM) 
+271	SPVM1111	-------		-------	Get Record Count	01:19:41 AM	SPVM:0 (01:19:41 AM)  SPB:0 (01:19:41 AM) SPL:0 (01:19:41 AM)
+272	SPVM1111	-------		-------	Get Record Count	01:19:43 AM	SPVM:0 (01:19:43 AM)  SPB:0 (01:19:43 AM) SPL:0 (01:19:43 AM)
+273	SPVM1111	-------		-------	Get Record Count	01:21:50 AM	SPVM:0 (01:21:50 AM)  SPB:0 (01:21:50 AM) SPL:0 (01:21:50 AM)
+274	SPVM1111	-------		-------	Get Record Count	01:21:53 AM	SPVM:0 (01:21:53 AM)  SPB:0 (01:21:53 AM) SPL:0 (01:21:53 AM)
+275	SPVM2222	NR11115		CAPTURED	Created Nurse Record	01:22:07 AM	SUCCESS: Nurse Record Created
+276	SPVM2222	NR11116		CAPTURED	Created Nurse Record	01:22:09 AM	SUCCESS: Nurse Record Created
+277	SPVM4444	-------		-------	Get Record Count	01:22:11 AM	SPVM:2 (01:22:11 AM)  SPB:2 (01:22:11 AM) SPL:4 (01:22:11 AM)
+278	SPVM4444	-------		-------	Get Record Count	01:22:13 AM	SPVM:2 (01:22:13 AM)  SPB:2 (01:22:13 AM) SPL:4 (01:22:13 AM)
+279	SPVM1111	-------		-------	Get Record Count	01:37:35 AM	SPVM:0 (01:37:35 AM)  SPB:0 (01:37:35 AM) SPL:0 (01:37:35 AM)
+280	SPVM1111	-------		-------	Get Record Count	01:37:37 AM	SPVM:0 (01:37:37 AM)  SPB:0 (01:37:37 AM) SPL:0 (01:37:37 AM)
+281	SPVM1111	-------		-------	Get Record Count	01:48:07 AM	SPVM:0 (01:48:07 AM)  SPB:0 (01:48:07 AM) SPL:0 (01:48:07 AM)
+282	SPVM1111	-------		-------	Get Record Count	01:48:09 AM	SPVM:0 (01:48:09 AM)  SPB:0 (01:48:09 AM) SPL:0 (01:48:09 AM)
+283	SPVM1111	-------		-------	Get Record Count	01:51:00 AM	SPVM:0 (01:51:00 AM)  SPB:0 (01:51:00 AM) SPL:0 (01:51:00 AM)
+284	SPVM1111	-------		-------	Get Record Count	01:51:02 AM	SPVM:0 (01:51:02 AM)  SPB:0 (01:51:02 AM) SPL:0 (01:51:02 AM)
+285	SPVM1111	-------		-------	Get Record Count	02:16:28 AM	SPVM:0 (02:16:28 AM)  SPB:0 (02:16:28 AM) SPL:0 (02:16:28 AM)
+286	SPVM1111	-------		-------	Get Record Count	12:35:20 PM	SPVM:0 (12:35:20 PM)  SPB:0 (12:35:20 PM) SPL:0 (12:35:20 PM)
