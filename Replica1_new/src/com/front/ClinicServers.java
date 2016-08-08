@@ -44,9 +44,9 @@ public class ClinicServers{
 			ClinicServerImpl ddoObj = new ClinicServerImpl(Constants.DDO_UDP_PORT);
 			
 			//translate object reference to ior and write to file
-			writeContactDetailsToFile(orb, rootPOA, mtlObj, "SPVM");
-			writeContactDetailsToFile(orb, rootPOA, lvlObj, "SPL");
-			writeContactDetailsToFile(orb, rootPOA, ddoObj, "SPB");
+			writeContactDetailsToFile(orb, rootPOA, mtlObj, "MTL");
+			writeContactDetailsToFile(orb, rootPOA, lvlObj, "LVL");
+			writeContactDetailsToFile(orb, rootPOA, ddoObj, "DDO");
 
 			new UDPReceiver(7878);
 			new MulticastMessageReceiver(Constants.MC_OPERATION_PORT);
