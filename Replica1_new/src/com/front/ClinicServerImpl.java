@@ -371,15 +371,15 @@ public class ClinicServerImpl extends ClinicServicePOA {
 			}
 		}else if("getcount".equalsIgnoreCase(operation)){
 			// set the UDP port number for other servers expect own for UDP communication between servers
-			if ("SPVM".equalsIgnoreCase(clinicName)) {
-				list.add(Constants.DDO_UDP_PORT + ":SPB");
-				list.add(Constants.LVL_UDP_PORT + ":SPL");
-			} else if ("SPL".equalsIgnoreCase(clinicName)) {
-				list.add(Constants.MTL_UDP_PORT + ":SPVM");
-				list.add(Constants.DDO_UDP_PORT + ":SPB");
-			} else if ("SPB".equalsIgnoreCase(clinicName)) {
-				list.add(Constants.MTL_UDP_PORT + ":SPVM");
-				list.add(Constants.LVL_UDP_PORT + ":SPL");
+			if ("MTL".equalsIgnoreCase(clinicName)) {
+				list.add(Constants.DDO_UDP_PORT + ":DDO");
+				list.add(Constants.LVL_UDP_PORT + ":LVL");
+			} else if ("LVL".equalsIgnoreCase(clinicName)) {
+				list.add(Constants.MTL_UDP_PORT + ":MTL");
+				list.add(Constants.DDO_UDP_PORT + ":DDO");
+			} else if ("DDO".equalsIgnoreCase(clinicName)) {
+				list.add(Constants.MTL_UDP_PORT + ":MTL");
+				list.add(Constants.LVL_UDP_PORT + ":LVL");
 			}
 		}
 		return list;
