@@ -5,100 +5,111 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.List;
 
-public class LeaderElection extends Thread{
-	
-	private List<String> activeProcesses = null; 
-	
-	public LeaderElection(List<String> activeProcesses){
-		this.activeProcesses = activeProcesses;
-	}
-	
-	@Override
-	public void run(){
-		// new MulticastMessageReceiver(Constants.MC_LES_PORT);
-		 //activeProcesses = new MulticastMessageSender().multicastRequest("LES", Constants.MC_LES_PORT);
-		
-		electLeader();
-		
-	}
+/**
+ * @author Abhinoor
+ */
+public class LeaderElection extends Thread {
 
-	/**
-	 * choose the process with the lowest process id among the active replicas
-	 */
-	private void electLeader() {
-		int minProcessID = Constants.MAX_REPLICA;
-		if(activeProcesses.size() != 0){
-			for(String process: activeProcesses){
-				 int processId = Integer.parseInt(process.split(":")[0]);
-				 if(processId < minProcessID)
-					minProcessID = processId;
-			}
-		}
-		
-		getAddress(minProcessID);
-	}
+    private List<String> activeProcesses = null;
 
-	/**
-	 * method for getting address of front end
-	 * @param process
-	 */
-	private void getAddress(int process) {
-		String address = "LCHANGED";
-		if(activeProcesses.size() != 0){
-			for(String proc: activeProcesses){
-				 String[] leaderInfo = proc.split(":");
-				 if(process == Integer.parseInt(leaderInfo[0])){
-					 address += ":"+leaderInfo[1];
-					 break;
-				 }	 
-			}
-		}
-		notifyFrontEnd(address);
-		notifyActiveReplicas(process);
-	}
+    public LeaderElection(List<String> activeProcesses) {
+        this.activeProcesses = activeProcesses;
+    }
 
-	/**
-	 * After election notify to other active replicas about new group leader
-	 * @param process
-	 */
-	private void notifyActiveReplicas(int process) {
-		new MulticastMessageSender().multicastRequest("LES:"+process, Constants.MC_LES_PORT);
-		System.out.println("New Group Leader Replica: "+process);
-	}
+    @Override
+    public void run() {
+        // new MulticastMessageReceiver(Constants.MC_LES_PORT);
+        //activeProcesses = new MulticastMessageSender().multicastRequest("LES", Constants.MC_LES_PORT);
 
-	/**
-	 * method which notifies the front end about new group leader
-	 * @param address
-	 */
-	private void notifyFrontEnd(String address) {
-		DatagramSocket socket = null;
-		DatagramPacket packet = null;
-		try{
-			socket = new DatagramSocket();
-			byte[] bytes = address.getBytes();
-			packet = new DatagramPacket(bytes, bytes.length, InetAddress.getByName(new ClinicServers().getFrontEndAddress()), Constants.GL_NOTIFY_PORT);
-			socket.send(packet);
-		}catch(Exception e){
-			System.out.println("IO:"+e.getMessage());
-		}finally{
-			if(null != socket)
-				socket.close();
-		}
-		
-	}
+        electLeader();
 
-	/**
-	 * @return the activeProcesses
-	 */
-	public List<String> getActiveProcesses() {
-		return activeProcesses;
-	}
+    }
 
-	/**
-	 * @param activeProcesses the activeProcesses to set
-	 */
-	public void setActiveProcesses(List<String> activeProcesses) {
-		this.activeProcesses = activeProcesses;
-	}
-	
+    /**
+     * Chooses the process with the lowest processID among the active replicas
+     */
+    private void electLeader() {
+        int minProcessID = Constants.MAX_REPLICA;
+        if (activeProcesses.size() != 0) {
+            for (String process : activeProcesses) {
+                int processId = Integer.parseInt(process.split(":")[0]);
+                if (processId < minProcessID) {
+                    minProcessID = processId;
+                }
+            }
+        }
+
+        getAddress(minProcessID);
+    }
+
+    /**
+     * Gets the address of FrontEnd
+     *
+     * @param process
+     */
+    private void getAddress(int process) {
+        String address = "LCHANGED";
+        if (activeProcesses.size() != 0) {
+            for (String proc : activeProcesses) {
+                String[] leaderInfo = proc.split(":");
+                if (process == Integer.parseInt(leaderInfo[0])) {
+                    address += ":" + leaderInfo[1];
+                    break;
+                }
+            }
+        }
+        notifyFrontEnd(address);
+        notifyActiveReplicas(process);
+    }
+
+    /**
+     * After successful election, notify other active replicas about the
+     * selected Leader
+     *
+     * @param process
+     */
+    private void notifyActiveReplicas(int process) {
+        new MulticastMessageSender().multicastRequest("LES:" + process, Constants.MC_LES_PORT);
+        System.out.println("New Group Leader Replica: " + process);
+    }
+
+    /**
+     * After successful election, notify the FrontEnd about the selected Leader
+     *
+     * @param address
+     */
+    private void notifyFrontEnd(String address) {
+        DatagramSocket socket = null;
+        DatagramPacket packet = null;
+        try {
+            socket = new DatagramSocket();
+            byte[] bytes = address.getBytes();
+            packet = new DatagramPacket(bytes, bytes.length, InetAddress.getByName(new ClinicServers().getFrontEndAddress()), Constants.GL_NOTIFY_PORT);
+            socket.send(packet);
+        } catch (Exception e) {
+            System.out.println("IO:" + e.getMessage());
+        } finally {
+            if (null != socket) {
+                socket.close();
+            }
+        }
+
+    }
+
+    /**
+     * @return the activeProcesses
+     */
+    public List<String> getActiveProcesses() {
+        return activeProcesses;
+    }
+
+    /**
+     * Sets the activeProcesses
+     *
+     * @param activeProcesses
+     */
+    public void setActiveProcesses(List<String> activeProcesses) {
+        this.activeProcesses = activeProcesses;
+    }
+
 }
