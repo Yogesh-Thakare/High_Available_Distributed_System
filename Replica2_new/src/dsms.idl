@@ -1,10 +1,10 @@
 module dsms {
 
 	interface ClinicService{
-		string createNRecord(in string firstName, in string lastName, in string description, in string status, in string badgeID);
-		string createDRecord(in string firstName, in string lastName, in string address, in string lastDate, in string lastLocation, in string status, in string badgeID);
-		string getRecordCounts(in string badgeID);
-		string editCRecord (in string lastName, in string recordID, in string newStatus, in string badgeID);
-		string transferRecord(in string badgeId, in string recordId, in string remoteServerName);
+		string createNRecord(in string firstName, in string lastName, in string designation, in string status, in string managerID);
+		string createDRecord(in string firstName, in string fieldName, in string address, in string phone, in string location, in string status, in string managerID);
+		string getRecordCounts(in string managerID);
+		string editRecord (in string lastName, in string recordID, in string newValue, in string managerID);
+		string transferRecord(in string managerId, in string recordId, in string remoteServerName);
 		};
 };
