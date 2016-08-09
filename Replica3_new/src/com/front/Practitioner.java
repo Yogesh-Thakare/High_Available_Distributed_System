@@ -1,7 +1,9 @@
 package com.front;
 
 import java.io.Serializable;
-
+/**
+ * @author Gagan
+ */
 public class Practitioner implements Serializable{
 
 	/**

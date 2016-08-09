@@ -1,5 +1,7 @@
 package com.front;
-
+/**
+ * @author Gagan
+ */
 public class NurseRecords extends Practitioner{
 	
 	/**
