@@ -37,8 +37,8 @@ public abstract class ClinicServicePOA extends org.omg.PortableServer.Servant
                 return _invoke_createDRecord(_is, handler);
         } else if (opName.equals("createNRecord")) {
                 return _invoke_createNRecord(_is, handler);
-        } else if (opName.equals("editCRecord")) {
-                return _invoke_editCRecord(_is, handler);
+        } else if (opName.equals("editRecord")) {
+                return _invoke_editRecord(_is, handler);
         } else if (opName.equals("getRecordCounts")) {
                 return _invoke_getRecordCounts(_is, handler);
         } else if (opName.equals("transferRecord")) {
@@ -101,7 +101,7 @@ public abstract class ClinicServicePOA extends org.omg.PortableServer.Servant
         return _output;
     }
 
-    private org.omg.CORBA.portable.OutputStream _invoke_editCRecord(
+    private org.omg.CORBA.portable.OutputStream _invoke_editRecord(
             final org.omg.CORBA.portable.InputStream _is,
             final org.omg.CORBA.portable.ResponseHandler handler) {
         org.omg.CORBA.portable.OutputStream _output;
@@ -110,7 +110,7 @@ public abstract class ClinicServicePOA extends org.omg.PortableServer.Servant
         String arg2_in = _is.read_string();
         String arg3_in = _is.read_string();
 
-        String _arg_result = editCRecord(arg0_in, arg1_in, arg2_in, arg3_in);
+        String _arg_result = editRecord(arg0_in, arg1_in, arg2_in, arg3_in);
 
         _output = handler.createReply();
         _output.write_string(_arg_result);

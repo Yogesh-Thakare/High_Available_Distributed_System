@@ -23,7 +23,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
     /**
      * Operation createNRecord
      */
-    public String createNRecord(String firstName, String lastName, String description, String status, String badgeID)
+    public String createNRecord(String firstName, String lastName, String designation, String status, String managerID)
     {
         while(true)
         {
@@ -35,9 +35,9 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                     org.omg.CORBA.portable.OutputStream _output = this._request("createNRecord",true);
                     _output.write_string(firstName);
                     _output.write_string(lastName);
-                    _output.write_string(description);
+                    _output.write_string(designation);
                     _output.write_string(status);
-                    _output.write_string(badgeID);
+                    _output.write_string(managerID);
                     _input = this._invoke(_output);
                     String _arg_ret = _input.read_string();
                     return _arg_ret;
@@ -64,7 +64,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                 dsms.ClinicServiceOperations _self = (dsms.ClinicServiceOperations) _so.servant;
                 try
                 {
-                    return _self.createNRecord( firstName,  lastName,  description,  status,  badgeID);
+                    return _self.createNRecord( firstName,  lastName,  designation,  status,  managerID);
                 }
                 finally
                 {
@@ -77,7 +77,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
     /**
      * Operation createDRecord
      */
-    public String createDRecord(String firstName, String lastName, String address, String lastDate, String lastLocation, String status, String badgeID)
+    public String createDRecord(String firstName, String fieldName, String address, String phone, String location, String status, String managerID)
     {
         while(true)
         {
@@ -88,12 +88,12 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                 {
                     org.omg.CORBA.portable.OutputStream _output = this._request("createDRecord",true);
                     _output.write_string(firstName);
-                    _output.write_string(lastName);
+                    _output.write_string(fieldName);
                     _output.write_string(address);
-                    _output.write_string(lastDate);
-                    _output.write_string(lastLocation);
+                    _output.write_string(phone);
+                    _output.write_string(location);
                     _output.write_string(status);
-                    _output.write_string(badgeID);
+                    _output.write_string(managerID);
                     _input = this._invoke(_output);
                     String _arg_ret = _input.read_string();
                     return _arg_ret;
@@ -120,7 +120,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                 dsms.ClinicServiceOperations _self = (dsms.ClinicServiceOperations) _so.servant;
                 try
                 {
-                    return _self.createDRecord( firstName,  lastName,  address,  lastDate,  lastLocation,  status,  badgeID);
+                    return _self.createDRecord( firstName,  fieldName,  address,  phone,  location,  status,  managerID);
                 }
                 finally
                 {
@@ -133,7 +133,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
     /**
      * Operation getRecordCounts
      */
-    public String getRecordCounts(String badgeID)
+    public String getRecordCounts(String managerID)
     {
         while(true)
         {
@@ -143,7 +143,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                 try
                 {
                     org.omg.CORBA.portable.OutputStream _output = this._request("getRecordCounts",true);
-                    _output.write_string(badgeID);
+                    _output.write_string(managerID);
                     _input = this._invoke(_output);
                     String _arg_ret = _input.read_string();
                     return _arg_ret;
@@ -170,7 +170,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                 dsms.ClinicServiceOperations _self = (dsms.ClinicServiceOperations) _so.servant;
                 try
                 {
-                    return _self.getRecordCounts( badgeID);
+                    return _self.getRecordCounts( managerID);
                 }
                 finally
                 {
@@ -181,9 +181,9 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
     }
 
     /**
-     * Operation editCRecord
+     * Operation editRecord
      */
-    public String editCRecord(String lastName, String recordID, String newStatus, String badgeID)
+    public String editRecord(String lastName, String recordID, String newValue, String managerID)
     {
         while(true)
         {
@@ -192,11 +192,11 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                 org.omg.CORBA.portable.InputStream _input = null;
                 try
                 {
-                    org.omg.CORBA.portable.OutputStream _output = this._request("editCRecord",true);
+                    org.omg.CORBA.portable.OutputStream _output = this._request("editRecord",true);
                     _output.write_string(lastName);
                     _output.write_string(recordID);
-                    _output.write_string(newStatus);
-                    _output.write_string(badgeID);
+                    _output.write_string(newValue);
+                    _output.write_string(managerID);
                     _input = this._invoke(_output);
                     String _arg_ret = _input.read_string();
                     return _arg_ret;
@@ -217,13 +217,13 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
             }
             else
             {
-                org.omg.CORBA.portable.ServantObject _so = _servant_preinvoke("editCRecord",_opsClass);
+                org.omg.CORBA.portable.ServantObject _so = _servant_preinvoke("editRecord",_opsClass);
                 if (_so == null)
                    continue;
                 dsms.ClinicServiceOperations _self = (dsms.ClinicServiceOperations) _so.servant;
                 try
                 {
-                    return _self.editCRecord( lastName,  recordID,  newStatus,  badgeID);
+                    return _self.editRecord( lastName,  recordID,  newValue,  managerID);
                 }
                 finally
                 {
@@ -236,7 +236,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
     /**
      * Operation transferRecord
      */
-    public String transferRecord(String badgeId, String recordId, String remoteServerName)
+    public String transferRecord(String managerId, String recordId, String remoteServerName)
     {
         while(true)
         {
@@ -246,7 +246,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                 try
                 {
                     org.omg.CORBA.portable.OutputStream _output = this._request("transferRecord",true);
-                    _output.write_string(badgeId);
+                    _output.write_string(managerId);
                     _output.write_string(recordId);
                     _output.write_string(remoteServerName);
                     _input = this._invoke(_output);
@@ -275,7 +275,7 @@ public class _ClinicServiceStub extends org.omg.CORBA.portable.ObjectImpl
                 dsms.ClinicServiceOperations _self = (dsms.ClinicServiceOperations) _so.servant;
                 try
                 {
-                    return _self.transferRecord( badgeId,  recordId,  remoteServerName);
+                    return _self.transferRecord( managerId,  recordId,  remoteServerName);
                 }
                 finally
                 {
